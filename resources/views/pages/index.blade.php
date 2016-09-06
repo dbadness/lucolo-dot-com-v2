@@ -6,47 +6,200 @@
             <div class="container">
                 <div class="intro-text">
                     <div class="intro-lead-in">Where Great Ideas Meet Great Software Development</div>
-                    <div class="intro-heading">Lucolo Brings Your ideas to life</div>
-                    <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                    <div class="intro-heading">We Bring ideas to life</div>
+                    <a href="#services" class="page-scroll btn btn-xl">Learn More</a>
                 </div>
             </div>
         </header>
 
         <!-- Services Section -->
-        <section id="services">
+        <section id="services" class="bg-light-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading">Services</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 class="section-subheading text-muted" style='width:60%;margin:50px auto;line-height:25px;'>Whether you need a prototype built, a full product overhaul, a feature created, something optimized, or just need help getting a difficult project completed on time, we can help.</h3>
                     </div>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-gears fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">E-Commerce</h4>
+                        <h4 class="service-heading">Product Development</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-gear fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">Responsive Design</h4>
+                        <h4 class="service-heading">Feature Development</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                            <i class="fa fa-user-plus fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="service-heading">Web Security</h4>
+                        <h4 class="service-heading">Talent Augmentation</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">The Process</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>2009-2011</h4>
+                                        <h4 class="subheading">Our Humble Beginnings</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>March 2011</h4>
+                                        <h4 class="subheading">An Agency is Born</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>December 2012</h4>
+                                        <h4 class="subheading">Transition to Full Service</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4>July 2014</h4>
+                                        <h4 class="subheading">Phase Two Expansion</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-image">
+                                    <h4>Be Part
+                                        <br>Of Our
+                                        <br>Story!</h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Do Section -->
+        <section id="tech" class="container content-section text-center">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our Technologies</h2>
+                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary">
+                    </i>
+                    <i class="fa fa-desktop fa-stack-1x fa-inverse">
+                    </i>
+                </span>
+                <h4 class="service-heading">
+                    Front End
+                </h4>
+                <hr>
+                    <p class="lead">Angular<br><small class='gray'>(Javascript Framework)</small></p>
+                    <p class="lead">HTML5/CSS3</p>
+                    <p class="lead">React<br><small class='gray'>(Javascript Framework)</small></p>
+                    <p class="lead">jQuery</p>
+                    <p class="lead">Bootstrap<br><small class='gray'>(CSS Framework)</small></p>
+                    <p class="lead">Bootswatch<br><small class='gray'>(CSS Templates)</small></p>
+                    <p class="lead">Adobe Illustrator/Pixelmator<br><small class='gray'>(Image Processing)</small></p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary">
+                    </i>
+                    <i class="fa fa-sitemap fa-stack-1x fa-inverse">
+                    </i>
+                </span>
+                <h4 class="service-heading">
+                    Full Stack and Integrations
+                </h4>
+                <hr>
+                    <p class="lead">Laravel<br><small class='gray'>(PHP Framework)</small></p>
+                    <p class="lead">Meteor<br><small class='gray'>(Javascript Framework)</small></p>
+                    <p class="lead">Ruby on Rails</p>
+                    <p class="lead">Stripe<br><small class='gray'>(Payment Processing)</small></p>
+                    <p class="lead">Twilio<br><small class='gray'>(SMS/Voice Integration)</small></p>
+                    <p class="lead">Sendgrid/SendinBlue<br><small class='gray'>(Email Marketing Integration)</small></p>
+                    <p class="lead">Google APIs</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary">
+                    </i>
+                    <i class="fa fa-database fa-stack-1x fa-inverse">
+                    </i>
+                </span>
+                <h4 class="service-heading">
+                    Back End
+                </h4>
+                <hr>
+                    <p class="lead">Postgresql</p>
+                    <p class="lead">MySQL</p>
+                    <p class="lead">MSSQL</p>
+                    <p class="lead">MongoDB<br><small class='gray'>(noSQL Architecture)</small></p>
+                    <p class="lead">Amazon Web Services<br><small class='gray'>(Cloud Sys Admin Services)</small></p>
+                    <p class="lead">Galaxy</p>
+                    <p class="lead">Heroku</p>
+                    <p class="lead">Node.js</p>
+                    <p class="lead">UNIX</p>
+                </p>
+            </div>
             </div>
         </section>
 
@@ -143,87 +296,6 @@
                             <h4>Dreams</h4>
                             <p class="text-muted">Website Design</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">About</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class="timeline">
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>2009-2011</h4>
-                                        <h4 class="subheading">Our Humble Beginnings</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>March 2011</h4>
-                                        <h4 class="subheading">An Agency is Born</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>December 2012</h4>
-                                        <h4 class="subheading">Transition to Full Service</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>July 2014</h4>
-                                        <h4 class="subheading">Phase Two Expansion</h4>
-                                    </div>
-                                    <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="timeline-inverted">
-                                <div class="timeline-image">
-                                    <h4>Be Part
-                                        <br>Of Our
-                                        <br>Story!</h4>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -370,7 +442,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <span class="copyright">Copyright &copy; Your Website 2016</span>
+                        <span class="copyright">All rights reserved, 2015 - {!! date('Y') !!} Lucolo, Inc</span>
                     </div>
                     <div class="col-md-4">
                         <ul class="list-inline social-buttons">

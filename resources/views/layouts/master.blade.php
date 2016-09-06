@@ -24,6 +24,9 @@
     <!-- Theme CSS -->
     <link href="css/agency.css" rel="stylesheet">
 
+    <!-- Site CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -43,7 +46,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src='img/gray-logo.png' width='30' style='float:left;margin:-5px 10px 0 0;'>Lucolo, Inc</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,10 +59,13 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#process">Process</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#tech">Technologies</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
