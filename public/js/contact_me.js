@@ -20,13 +20,14 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "/sendMessage",
                 type: "POST",
                 data: {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message
+                    message: message,
+                    _token: $('input[name=_token]').val()
                 },
                 cache: false,
                 success: function() {

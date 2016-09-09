@@ -231,6 +231,13 @@ class ComposerStaticInitb512752f0beb67644031f33ca77038f1
     );
 
     public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'Sendinblue' => 
+            array (
+                0 => __DIR__ . '/..' . '/mailin-api/mailin-api-php/src',
+            ),
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 
@@ -279,11 +286,13 @@ class ComposerStaticInitb512752f0beb67644031f33ca77038f1
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\ActionController' => __DIR__ . '/../..' . '/app/Http/Controllers/ActionController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
         'App\\Http\\Controllers\\Auth\\RegisterController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/RegisterController.php',
         'App\\Http\\Controllers\\Auth\\ResetPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ResetPasswordController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\PagesController' => __DIR__ . '/../..' . '/app/Http/Controllers/PagesController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
@@ -1293,6 +1302,7 @@ class ComposerStaticInitb512752f0beb67644031f33ca77038f1
         'Illuminate\\Queue\\Jobs\\SyncJob' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/Jobs/SyncJob.php',
         'Illuminate\\Queue\\Listener' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/Listener.php',
         'Illuminate\\Queue\\LuaScripts' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/LuaScripts.php',
+        'Illuminate\\Queue\\MaxAttemptsExceededException' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/MaxAttemptsExceededException.php',
         'Illuminate\\Queue\\NullQueue' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/NullQueue.php',
         'Illuminate\\Queue\\Queue' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/Queue.php',
         'Illuminate\\Queue\\QueueManager' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Queue/QueueManager.php',
@@ -1393,6 +1403,12 @@ class ComposerStaticInitb512752f0beb67644031f33ca77038f1
         'Illuminate\\Support\\Pluralizer' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Pluralizer.php',
         'Illuminate\\Support\\ServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/ServiceProvider.php',
         'Illuminate\\Support\\Str' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Str.php',
+        'Illuminate\\Support\\Testing\\Fakes\\BusFake' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Testing/Fakes/BusFake.php',
+        'Illuminate\\Support\\Testing\\Fakes\\EventFake' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Testing/Fakes/EventFake.php',
+        'Illuminate\\Support\\Testing\\Fakes\\MailFake' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailFake.php',
+        'Illuminate\\Support\\Testing\\Fakes\\MailableFake' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Testing/Fakes/MailableFake.php',
+        'Illuminate\\Support\\Testing\\Fakes\\NotificationFake' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php',
+        'Illuminate\\Support\\Testing\\Fakes\\QueueFake' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php',
         'Illuminate\\Support\\Traits\\CapsuleManagerTrait' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Traits/CapsuleManagerTrait.php',
         'Illuminate\\Support\\Traits\\Macroable' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/Traits/Macroable.php',
         'Illuminate\\Support\\ViewErrorBag' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/ViewErrorBag.php',
@@ -2512,6 +2528,7 @@ class ComposerStaticInitb512752f0beb67644031f33ca77038f1
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Sendinblue\\Mailin' => __DIR__ . '/..' . '/mailin-api/mailin-api-php/src/Sendinblue/Mailin.php',
         'SuperClosure\\Analyzer\\AstAnalyzer' => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src/Analyzer/AstAnalyzer.php',
         'SuperClosure\\Analyzer\\ClosureAnalyzer' => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src/Analyzer/ClosureAnalyzer.php',
         'SuperClosure\\Analyzer\\Token' => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src/Analyzer/Token.php',

@@ -1782,135 +1782,6 @@
         ]
     },
     {
-        "name": "laravel/framework",
-        "version": "v5.3.6",
-        "version_normalized": "5.3.6.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/laravel/framework.git",
-            "reference": "c63a7fb7066fea2bce91ace5c830c01d503abe6c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/laravel/framework/zipball/c63a7fb7066fea2bce91ace5c830c01d503abe6c",
-            "reference": "c63a7fb7066fea2bce91ace5c830c01d503abe6c",
-            "shasum": ""
-        },
-        "require": {
-            "classpreloader/classpreloader": "~3.0",
-            "doctrine/inflector": "~1.0",
-            "ext-mbstring": "*",
-            "ext-openssl": "*",
-            "jeremeamia/superclosure": "~2.2",
-            "league/flysystem": "~1.0",
-            "monolog/monolog": "~1.11",
-            "mtdowling/cron-expression": "~1.0",
-            "nesbot/carbon": "~1.20",
-            "paragonie/random_compat": "~1.4|~2.0",
-            "php": ">=5.6.4",
-            "psy/psysh": "0.7.*",
-            "ramsey/uuid": "~3.0",
-            "swiftmailer/swiftmailer": "~5.1",
-            "symfony/console": "3.1.*",
-            "symfony/debug": "3.1.*",
-            "symfony/finder": "3.1.*",
-            "symfony/http-foundation": "3.1.*",
-            "symfony/http-kernel": "3.1.*",
-            "symfony/process": "3.1.*",
-            "symfony/routing": "3.1.*",
-            "symfony/translation": "3.1.*",
-            "symfony/var-dumper": "3.1.*",
-            "vlucas/phpdotenv": "~2.2"
-        },
-        "replace": {
-            "illuminate/auth": "self.version",
-            "illuminate/broadcasting": "self.version",
-            "illuminate/bus": "self.version",
-            "illuminate/cache": "self.version",
-            "illuminate/config": "self.version",
-            "illuminate/console": "self.version",
-            "illuminate/container": "self.version",
-            "illuminate/contracts": "self.version",
-            "illuminate/cookie": "self.version",
-            "illuminate/database": "self.version",
-            "illuminate/encryption": "self.version",
-            "illuminate/events": "self.version",
-            "illuminate/exception": "self.version",
-            "illuminate/filesystem": "self.version",
-            "illuminate/hashing": "self.version",
-            "illuminate/http": "self.version",
-            "illuminate/log": "self.version",
-            "illuminate/mail": "self.version",
-            "illuminate/pagination": "self.version",
-            "illuminate/pipeline": "self.version",
-            "illuminate/queue": "self.version",
-            "illuminate/redis": "self.version",
-            "illuminate/routing": "self.version",
-            "illuminate/session": "self.version",
-            "illuminate/support": "self.version",
-            "illuminate/translation": "self.version",
-            "illuminate/validation": "self.version",
-            "illuminate/view": "self.version",
-            "tightenco/collect": "self.version"
-        },
-        "require-dev": {
-            "aws/aws-sdk-php": "~3.0",
-            "mockery/mockery": "~0.9.4",
-            "pda/pheanstalk": "~3.0",
-            "phpunit/phpunit": "~5.4",
-            "predis/predis": "~1.0",
-            "symfony/css-selector": "3.1.*",
-            "symfony/dom-crawler": "3.1.*"
-        },
-        "suggest": {
-            "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~3.0).",
-            "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
-            "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
-            "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~5.3|~6.0).",
-            "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
-            "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0).",
-            "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
-            "predis/predis": "Required to use the redis cache and queue drivers (~1.0).",
-            "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~2.0).",
-            "symfony/css-selector": "Required to use some of the crawler integration testing tools (3.1.*).",
-            "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (3.1.*).",
-            "symfony/psr-http-message-bridge": "Required to psr7 bridging features (0.2.*)."
-        },
-        "time": "2016-09-01 14:06:47",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "5.3-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "src/Illuminate/Foundation/helpers.php",
-                "src/Illuminate/Support/helpers.php"
-            ],
-            "psr-4": {
-                "Illuminate\\": "src/Illuminate/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Taylor Otwell",
-                "email": "taylor@laravel.com"
-            }
-        ],
-        "description": "The Laravel Framework.",
-        "homepage": "https://laravel.com",
-        "keywords": [
-            "framework",
-            "laravel"
-        ]
-    },
-    {
         "name": "fzaninotto/faker",
         "version": "v1.6.0",
         "version_normalized": "1.6.0.0",
@@ -2711,67 +2582,6 @@
         ]
     },
     {
-        "name": "phpunit/phpunit-mock-objects",
-        "version": "3.2.6",
-        "version_normalized": "3.2.6.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-            "reference": "46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49",
-            "reference": "46b249b43fd2ed8e127aa0fdb3cbcf56e9bc0e49",
-            "shasum": ""
-        },
-        "require": {
-            "doctrine/instantiator": "^1.0.2",
-            "php": "^5.6 || ^7.0",
-            "phpunit/php-text-template": "^1.2",
-            "sebastian/exporter": "^1.2"
-        },
-        "conflict": {
-            "phpunit/phpunit": "<5.4.0"
-        },
-        "require-dev": {
-            "phpunit/phpunit": "^5.4"
-        },
-        "suggest": {
-            "ext-soap": "*"
-        },
-        "time": "2016-08-26 05:51:59",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.2.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "classmap": [
-                "src/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Sebastian Bergmann",
-                "email": "sb@sebastian-bergmann.de",
-                "role": "lead"
-            }
-        ],
-        "description": "Mock Object library for PHPUnit",
-        "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
-        "keywords": [
-            "mock",
-            "xunit"
-        ]
-    },
-    {
         "name": "phpunit/php-timer",
         "version": "1.0.8",
         "version_normalized": "1.0.8.0",
@@ -3298,50 +3108,6 @@
         ]
     },
     {
-        "name": "myclabs/deep-copy",
-        "version": "1.5.1",
-        "version_normalized": "1.5.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/myclabs/DeepCopy.git",
-            "reference": "a8773992b362b58498eed24bf85005f363c34771"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/a8773992b362b58498eed24bf85005f363c34771",
-            "reference": "a8773992b362b58498eed24bf85005f363c34771",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.4.0"
-        },
-        "require-dev": {
-            "doctrine/collections": "1.*",
-            "phpunit/phpunit": "~4.1"
-        },
-        "time": "2015-11-20 12:04:31",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "DeepCopy\\": "src/DeepCopy/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "description": "Create deep copies (clones) of your objects",
-        "homepage": "https://github.com/myclabs/DeepCopy",
-        "keywords": [
-            "clone",
-            "copy",
-            "duplicate",
-            "object",
-            "object graph"
-        ]
-    },
-    {
         "name": "phpunit/phpunit",
         "version": "5.5.4",
         "version_normalized": "5.5.4.0",
@@ -3533,5 +3299,283 @@
         ],
         "description": "Symfony DomCrawler Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "laravel/framework",
+        "version": "v5.3.7",
+        "version_normalized": "5.3.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laravel/framework.git",
+            "reference": "443764337de22705c115abe169472c24446764bd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laravel/framework/zipball/443764337de22705c115abe169472c24446764bd",
+            "reference": "443764337de22705c115abe169472c24446764bd",
+            "shasum": ""
+        },
+        "require": {
+            "classpreloader/classpreloader": "~3.0",
+            "doctrine/inflector": "~1.0",
+            "ext-mbstring": "*",
+            "ext-openssl": "*",
+            "jeremeamia/superclosure": "~2.2",
+            "league/flysystem": "~1.0",
+            "monolog/monolog": "~1.11",
+            "mtdowling/cron-expression": "~1.0",
+            "nesbot/carbon": "~1.20",
+            "paragonie/random_compat": "~1.4|~2.0",
+            "php": ">=5.6.4",
+            "psy/psysh": "0.7.*",
+            "ramsey/uuid": "~3.0",
+            "swiftmailer/swiftmailer": "~5.1",
+            "symfony/console": "3.1.*",
+            "symfony/debug": "3.1.*",
+            "symfony/finder": "3.1.*",
+            "symfony/http-foundation": "3.1.*",
+            "symfony/http-kernel": "3.1.*",
+            "symfony/process": "3.1.*",
+            "symfony/routing": "3.1.*",
+            "symfony/translation": "3.1.*",
+            "symfony/var-dumper": "3.1.*",
+            "vlucas/phpdotenv": "~2.2"
+        },
+        "replace": {
+            "illuminate/auth": "self.version",
+            "illuminate/broadcasting": "self.version",
+            "illuminate/bus": "self.version",
+            "illuminate/cache": "self.version",
+            "illuminate/config": "self.version",
+            "illuminate/console": "self.version",
+            "illuminate/container": "self.version",
+            "illuminate/contracts": "self.version",
+            "illuminate/cookie": "self.version",
+            "illuminate/database": "self.version",
+            "illuminate/encryption": "self.version",
+            "illuminate/events": "self.version",
+            "illuminate/exception": "self.version",
+            "illuminate/filesystem": "self.version",
+            "illuminate/hashing": "self.version",
+            "illuminate/http": "self.version",
+            "illuminate/log": "self.version",
+            "illuminate/mail": "self.version",
+            "illuminate/pagination": "self.version",
+            "illuminate/pipeline": "self.version",
+            "illuminate/queue": "self.version",
+            "illuminate/redis": "self.version",
+            "illuminate/routing": "self.version",
+            "illuminate/session": "self.version",
+            "illuminate/support": "self.version",
+            "illuminate/translation": "self.version",
+            "illuminate/validation": "self.version",
+            "illuminate/view": "self.version",
+            "tightenco/collect": "self.version"
+        },
+        "require-dev": {
+            "aws/aws-sdk-php": "~3.0",
+            "mockery/mockery": "~0.9.4",
+            "pda/pheanstalk": "~3.0",
+            "phpunit/phpunit": "~5.4",
+            "predis/predis": "~1.0",
+            "symfony/css-selector": "3.1.*",
+            "symfony/dom-crawler": "3.1.*"
+        },
+        "suggest": {
+            "aws/aws-sdk-php": "Required to use the SQS queue driver and SES mail driver (~3.0).",
+            "doctrine/dbal": "Required to rename columns and drop SQLite columns (~2.4).",
+            "fzaninotto/faker": "Required to use the eloquent factory builder (~1.4).",
+            "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers and the ping methods on schedules (~5.3|~6.0).",
+            "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (~1.0).",
+            "league/flysystem-rackspace": "Required to use the Flysystem Rackspace driver (~1.0).",
+            "pda/pheanstalk": "Required to use the beanstalk queue driver (~3.0).",
+            "predis/predis": "Required to use the redis cache and queue drivers (~1.0).",
+            "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (~2.0).",
+            "symfony/css-selector": "Required to use some of the crawler integration testing tools (3.1.*).",
+            "symfony/dom-crawler": "Required to use most of the crawler integration testing tools (3.1.*).",
+            "symfony/psr-http-message-bridge": "Required to psr7 bridging features (0.2.*)."
+        },
+        "time": "2016-09-08 17:10:45",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Illuminate/Foundation/helpers.php",
+                "src/Illuminate/Support/helpers.php"
+            ],
+            "psr-4": {
+                "Illuminate\\": "src/Illuminate/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "The Laravel Framework.",
+        "homepage": "https://laravel.com",
+        "keywords": [
+            "framework",
+            "laravel"
+        ]
+    },
+    {
+        "name": "myclabs/deep-copy",
+        "version": "1.5.2",
+        "version_normalized": "1.5.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/myclabs/DeepCopy.git",
+            "reference": "da8529775f14f4fdae33f916eb0cf65f6afbddbc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/da8529775f14f4fdae33f916eb0cf65f6afbddbc",
+            "reference": "da8529775f14f4fdae33f916eb0cf65f6afbddbc",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "doctrine/collections": "1.*",
+            "phpunit/phpunit": "~4.1"
+        },
+        "time": "2016-09-06 16:07:05",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DeepCopy\\": "src/DeepCopy/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Create deep copies (clones) of your objects",
+        "homepage": "https://github.com/myclabs/DeepCopy",
+        "keywords": [
+            "clone",
+            "copy",
+            "duplicate",
+            "object",
+            "object graph"
+        ]
+    },
+    {
+        "name": "phpunit/phpunit-mock-objects",
+        "version": "3.2.7",
+        "version_normalized": "3.2.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
+            "reference": "546898a2c0c356ef2891b39dd7d07f5d82c8ed0a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/546898a2c0c356ef2891b39dd7d07f5d82c8ed0a",
+            "reference": "546898a2c0c356ef2891b39dd7d07f5d82c8ed0a",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/instantiator": "^1.0.2",
+            "php": "^5.6 || ^7.0",
+            "phpunit/php-text-template": "^1.2",
+            "sebastian/exporter": "^1.2"
+        },
+        "conflict": {
+            "phpunit/phpunit": "<5.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.4"
+        },
+        "suggest": {
+            "ext-soap": "*"
+        },
+        "time": "2016-09-06 16:07:45",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Sebastian Bergmann",
+                "email": "sb@sebastian-bergmann.de",
+                "role": "lead"
+            }
+        ],
+        "description": "Mock Object library for PHPUnit",
+        "homepage": "https://github.com/sebastianbergmann/phpunit-mock-objects/",
+        "keywords": [
+            "mock",
+            "xunit"
+        ]
+    },
+    {
+        "name": "mailin-api/mailin-api-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mailin-api/mailin-api-php.git",
+            "reference": "53297cf3322e7a47583efb1e2e2672757c117d51"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mailin-api/mailin-api-php/zipball/53297cf3322e7a47583efb1e2e2672757c117d51",
+            "reference": "53297cf3322e7a47583efb1e2e2672757c117d51",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2016-06-30 06:39:26",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Sendinblue": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "SendinBlue",
+                "homepage": "https://www.sendinblue.com/"
+            }
+        ],
+        "description": "Official SendinBlue provided API V2 wrapper",
+        "homepage": "https://github.com/mailin-api/mailin-api-php"
     }
 ]

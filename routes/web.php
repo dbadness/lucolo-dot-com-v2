@@ -12,3 +12,4 @@
 */
 
 Route::get('/','PagesController@showIndex');
+Route::post('/sendMessage','ActionController@sendContactForm');
