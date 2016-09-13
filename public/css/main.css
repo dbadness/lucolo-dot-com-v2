@@ -1,7 +1,15 @@
 /*** Main CSS Page ***/
 
-.gray{
+.gray
+{
 	font-size:80%;
 	color:lightgray;
 	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+/* to pronounce href links */
+.blackUnderline
+{
+	color:black;
+	text-decoration:underline;
 }

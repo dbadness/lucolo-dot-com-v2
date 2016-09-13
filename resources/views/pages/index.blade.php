@@ -132,7 +132,7 @@
             <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="section-heading">Our Technologies</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 class="section-subheading text-muted">From services, to frameworks, to libraries, to languages, our talented team has your project requirements covered.</h3>
                     </div>
                 </div>
             </div>
@@ -208,8 +208,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Portfolio</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 class="section-heading">Featured Recent Projects</h2>
+                        <h3 class="section-subheading text-muted">Take a look at how Lucolo turned ideas into great software.</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -220,11 +220,11 @@
                                     <i class="fa fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/golden.png" class="img-responsive" alt="">
+                            <img src="img/portfolio/mailsy.png" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Golden</h4>
-                            <p class="text-muted">Website Design</p>
+                            <h4>Mailsy.co</h4>
+                            <p class="text-muted">Complete Product Development</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6 portfolio-item">
@@ -443,16 +443,23 @@
                             <div class="col-lg-8 col-lg-offset-2">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here -->
-                                    <h2>Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <p>
-                                        <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                    <ul class="list-inline">
-                                        <li>Date: July 2014</li>
-                                        <li>Client: Round Icons</li>
-                                        <li>Category: Graphic Design</li>
+                                    <h2>Mailsy.co</h2>
+                                    <p class="item-intro text-muted">An email automation tool built specifically for sales teams. </p>
+                                    <img class="img-responsive img-centered" src="img/portfolio/mailsy-full.png" alt="mailsy" style='border:solid 5px black;'>
+                                    <p>In late 2015, Lucolo founder Dave Baines wanted to work on a project to help sales folks engage their audiences in a more human and effective way via email. Instead of having sales reps send out individual emails to prospects and customers over and over again, why not automate that process so sales reps have more time to call, meet with, and engage customers to drive more revenue to their teams and businesses? With that question in mind, Mailsy was born.</p>
+
+                                    <p>Mailsy is a full-featured web product that enables users to create emails and send them out to a large list of contacts in seconds. Each email Mailsy sends is customized for each recipient and each email comes from the user's email address so recipients are very likely to respond to the message. The Lucolo team leaned heavily on its product management, marketing, and software engineering talents to bring Mailsy to market and we could do the same for you and your product idea.</p>
+
+                                    <p class='lead' style='text-align:left;'>Project Type: <strong>Product Development</strong></p>
+                                    <p class='lead' style='text-align:left;'>Technologies Used</p>
+                                    <ul style='text-align:left;'>
+                                        <li><a class='blackUnderline' target='_blank' href='http://www.laravel.com'>Laravel</a> (PHP Framework)</li>
+                                        <li><a class='blackUnderline' target='_blank' href='http://www.getbootstrap.com'>Bootstrap</a> (CSS Elements)</li>
+                                        <li><a class='blackUnderline' target='_blank' href='http://www.jquery.com'>jQuery</a></li>
+                                        <li>HTML5/CSS3</li>
+                                        <li><a class='blackUnderline' target='_blank' href='http://www.stripe.com'>Stripe</a> (Payment Processing)</li>
+                                        <li><a class='blackUnderline' target='_blank' href='https://developers.google.com/apis-explorer/#p/'>Google APIs</a> (Gmail)</li>
+                                        <li><a class='blackUnderline' target='_blank' href='http://www.sendinblue.com'>Sendinblue</a> (Email Marketing)</li>
                                     </ul>
                                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                                 </div>

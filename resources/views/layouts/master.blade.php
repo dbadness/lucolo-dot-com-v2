@@ -65,7 +65,7 @@
                         <a class="page-scroll" href="#tech">Technologies</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
