@@ -36,7 +36,7 @@
                             <i class="fa fa-gear fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="service-heading">Feature Development</h4>
-                        <p class="text-muted">If you have an existing product that needs a new feature or optimization, we'd be happy to help. We'll take a look at your existing infrastructure, technology, and methodologies and come up with a plan to build something new on top of something old.</p>
+                        <p class="text-muted">If you have an existing product that needs a new feature or optimization, we'd be happy to help. We'll take a look at your existing infrastructure, technology, and methodologies and come up with a plan to build something new on top of your existing product.</p>
                     </div>
                     <div class="col-md-3">
                         <span class="fa-stack fa-4x">
@@ -58,8 +58,106 @@
             </div>
         </section>
 
+        <!-- What We Do Section -->
+        <section id="tech" class="container content-section text-center">
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading">Our Technologies</h2>
+                        <h3 class="section-subheading text-muted">From services, to frameworks, to libraries, to languages, our talented team has your project requirements covered.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary">
+                    </i>
+                    <i class="fa fa-desktop fa-stack-1x fa-inverse">
+                    </i>
+                </span>
+                <h4 class="service-heading">
+                    Front End
+                </h4>
+                <hr>
+                    <p class="lead">Angular<br><small class='gray'>(Javascript Framework)</small></p>
+                    <p class="lead">HTML5/CSS3</p>
+                    <p class="lead">React<br><small class='gray'>(Javascript Framework)</small></p>
+                    <p class="lead">jQuery</p>
+                    <p class="lead">Bootstrap<br><small class='gray'>(CSS Framework)</small></p>
+                    <p class="lead">Bootswatch<br><small class='gray'>(CSS Templates)</small></p>
+                    <p class="lead">Adobe Illustrator/Pixelmator<br><small class='gray'>(Image Processing)</small></p>
+            </div>
+            <div class="col-md-3">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary">
+                    </i>
+                    <i class="fa fa-sitemap fa-stack-1x fa-inverse">
+                    </i>
+                </span>
+                <h4 class="service-heading">
+                    Full Stack and Integrations
+                </h4>
+                <hr>
+                    <p class="lead">Laravel<br><small class='gray'>(PHP Framework)</small></p>
+                    <p class="lead">Meteor<br><small class='gray'>(Javascript Framework)</small></p>
+                    <p class="lead">Ruby on Rails</p>
+                    <p class="lead">Stripe<br><small class='gray'>(Payment Processing)</small></p>
+                    <p class="lead">Twilio<br><small class='gray'>(SMS/Voice Integration)</small></p>
+                    <p class="lead">Sendgrid/SendinBlue<br><small class='gray'>(Email Marketing Integration)</small></p>
+                    <p class="lead">Google APIs</p>
+            </div>
+            <div class="col-md-3">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary">
+                    </i>
+                    <i class="fa fa-database fa-stack-1x fa-inverse">
+                    </i>
+                </span>
+                <h4 class="service-heading">
+                    Back End
+                </h4>
+                <hr>
+                    <p class="lead">Postgresql</p>
+                    <p class="lead">MySQL</p>
+                    <p class="lead">MSSQL</p>
+                    <p class="lead">MongoDB<br><small class='gray'>(noSQL Architecture)</small></p>
+                    <p class="lead">Amazon Web Services<br><small class='gray'>(Cloud Sys Admin Services)</small></p>
+                    <p class="lead">Galaxy</p>
+                    <p class="lead">Heroku</p>
+                    <p class="lead">Node.js</p>
+                    <p class="lead">Apache / Nginx</p>
+                </p>
+            </div>
+            <div class="col-md-3">
+                <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary">
+                    </i>
+                    <i class="fa fa-comment fa-stack-1x fa-inverse">
+                    </i>
+                </span>
+                <h4 class="service-heading">
+                    Languages
+                </h4>
+                <hr>
+                    <p class="lead">PHP</p>
+                    <p class="lead">Java</p>
+                    <p class="lead">C&#43;&#43;</p>
+                    <p class="lead">C&#35;</p>
+                    <p class="lead">Python</p>
+                    <p class="lead">HTML(5)</p>
+                    <p class="lead">CSS(3)</p>
+                    <p class="lead">UNIX</p>
+                    <p class="lead">jQuery</p>
+                    <p class="lead">Javascript</p>
+                </p>
+            </div>
+            <div class="col-lg-12 text-center" style='margin:50px 0 -150px 0;'>
+                <h4 class="section-heading">Don't see what you're looking for?</h4>
+                <h3 class="section-subheading text-muted" style='line-height:25px;'>While the above is what our team specializes in, if you have technology requirement that you don't see listed above, <a href='#contact'>reach out to us</a> with the request and we'd be happy to see if there's something we can do.</h3>
+            </div>
+        </section>
+
         <!-- Process Section -->
-        <section id="process">
+        <section id="process" class="bg-light-gray">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -127,93 +225,17 @@
             </div>
         </section>
 
-        <!-- What We Do Section -->
-        <section id="tech" class="container content-section text-center">
-            <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Our Technologies</h2>
-                        <h3 class="section-subheading text-muted">From services, to frameworks, to libraries, to languages, our talented team has your project requirements covered.</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary">
-                    </i>
-                    <i class="fa fa-desktop fa-stack-1x fa-inverse">
-                    </i>
-                </span>
-                <h4 class="service-heading">
-                    Front End
-                </h4>
-                <hr>
-                    <p class="lead">Angular<br><small class='gray'>(Javascript Framework)</small></p>
-                    <p class="lead">HTML5/CSS3</p>
-                    <p class="lead">React<br><small class='gray'>(Javascript Framework)</small></p>
-                    <p class="lead">jQuery</p>
-                    <p class="lead">Bootstrap<br><small class='gray'>(CSS Framework)</small></p>
-                    <p class="lead">Bootswatch<br><small class='gray'>(CSS Templates)</small></p>
-                    <p class="lead">Adobe Illustrator/Pixelmator<br><small class='gray'>(Image Processing)</small></p>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary">
-                    </i>
-                    <i class="fa fa-sitemap fa-stack-1x fa-inverse">
-                    </i>
-                </span>
-                <h4 class="service-heading">
-                    Full Stack and Integrations
-                </h4>
-                <hr>
-                    <p class="lead">Laravel<br><small class='gray'>(PHP Framework)</small></p>
-                    <p class="lead">Meteor<br><small class='gray'>(Javascript Framework)</small></p>
-                    <p class="lead">Ruby on Rails</p>
-                    <p class="lead">Stripe<br><small class='gray'>(Payment Processing)</small></p>
-                    <p class="lead">Twilio<br><small class='gray'>(SMS/Voice Integration)</small></p>
-                    <p class="lead">Sendgrid/SendinBlue<br><small class='gray'>(Email Marketing Integration)</small></p>
-                    <p class="lead">Google APIs</p>
-            </div>
-            <div class="col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fa fa-circle fa-stack-2x text-primary">
-                    </i>
-                    <i class="fa fa-database fa-stack-1x fa-inverse">
-                    </i>
-                </span>
-                <h4 class="service-heading">
-                    Back End
-                </h4>
-                <hr>
-                    <p class="lead">Postgresql</p>
-                    <p class="lead">MySQL</p>
-                    <p class="lead">MSSQL</p>
-                    <p class="lead">MongoDB<br><small class='gray'>(noSQL Architecture)</small></p>
-                    <p class="lead">Amazon Web Services<br><small class='gray'>(Cloud Sys Admin Services)</small></p>
-                    <p class="lead">Galaxy</p>
-                    <p class="lead">Heroku</p>
-                    <p class="lead">Node.js</p>
-                    <p class="lead">UNIX</p>
-                </p>
-            </div>
-            </div>
-            <div class="col-lg-12 text-center" style='margin:50px 0 0 0;'>
-                <h4 class="section-heading">Don't see what you're looking for?</h4>
-                <h3 class="section-subheading text-muted" style='line-height:25px;'>While the above is what our team specializes in, if you have technology requirement that you don't see listed above, <a href='#contact'>reach out to us</a> with the reqeust and we'd be happy to see if there's something we can do.</h3>
-            </div>
-        </section>
-
         <!-- Portfolio Grid Section -->
-        <section id="portfolio" class="bg-light-gray">
+        <section id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Featured Recent Projects</h2>
+                        <h2 class="section-heading">Featured Project</h2>
                         <h3 class="section-subheading text-muted">Take a look at how Lucolo turned ideas into great software.</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="col-md-12 col-sm-6 portfolio-item">
                         <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
@@ -223,36 +245,8 @@
                             <img src="img/portfolio/mailsy.png" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4>Mailsy.co</h4>
-                            <p class="text-muted">Complete Product Development</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Escape</h4>
-                            <p class="text-muted">Website Design</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>Dreams</h4>
-                            <p class="text-muted">Website Design</p>
+                            <h4><a class='blackUnderline' href='https://www.mailsy.co'>Mailsy.co</a></h4>
+                            <p class="text-muted">Bringing an idea from paper to people.</p>
                         </div>
                     </div>
                 </div>
@@ -264,52 +258,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Our Amazing Team</h2>
-                        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h2 class="section-heading">Meet Dave, Lucolo's Founder</h2>
+                        <h3 class="section-subheading text-muted">"While great software is important, having a caring team that you can work with to bring your ideas to life is Lucolo's sole mission."</h3>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-12">
                         <div class="team-member">
-                            <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Kay Garland</h4>
-                            <p class="text-muted">Lead Designer</p>
+                            <img src="img/team/dave.png" class="img-responsive img-circle" alt="">
+                            <h4>Dave Baines</h4>
+                            <p class="text-muted">Founder, Lead Developer, Client Obssesovist</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                <li><a href="https://www.twitter.com/imdavebaines" target='_blank'><i class="fa fa-twitter"></i></a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                <li><a href="http://www.medium.com/lucoloinc" target='_blank'><i class="fa fa-medium"></i></a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="team-member">
-                            <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                            <h4>Diana Pertersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <ul class="list-inline social-buttons">
-                                <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/in/davidabaines" target='_blank'><i class="fa fa-linkedin"></i></a>
                                 </li>
                             </ul>
                         </div>
@@ -324,6 +288,7 @@
         </section>
 
         <!-- Clients Aside -->
+        <!--
         <aside class="clients">
             <div class="container">
                 <div class="row">
@@ -350,6 +315,7 @@
                 </div>
             </div>
         </aside>
+        -->
 
         <!-- Contact Section -->
         <section id="contact">
@@ -397,34 +363,6 @@
             </div>
         </section>
 
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <span class="copyright">All rights reserved, 2015 - {!! date('Y') !!} Lucolo, Inc</span>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <ul class="list-inline quicklinks">
-                            <li><a href="#">Privacy Policy</a>
-                            </li>
-                            <li><a href="#">Terms of Use</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
         <!-- Portfolio Modals -->
         <!-- Use the modals below to showcase details about your portfolio projects! -->
 
@@ -469,77 +407,4 @@
                 </div>
             </div>
         </div>
-
-        <!-- Portfolio Modal 2 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <h2>Project Heading</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                    <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                    <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Portfolio Modal 3 -->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal">
-                        <div class="lr">
-                            <div class="rl">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 col-lg-offset-2">
-                                <div class="modal-body">
-                                    <!-- Project Details Go Here -->
-                                    <h2>Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                    <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                    <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- jQuery -->
-        <script src="js/jquery.min.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
-
-        <!-- Plugin JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-        <!-- Contact Form JavaScript -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/contact_me.js"></script>
-
-        <!-- Theme JavaScript -->
-        <script src="js/agency.min.js"></script>
 @endsection
