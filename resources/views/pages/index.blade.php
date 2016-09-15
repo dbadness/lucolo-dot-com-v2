@@ -258,7 +258,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Meet Dave, Lucolo's Founder</h2>
+                        <h2 class="section-heading">Meet Your Developer</h2>
                         <h3 class="section-subheading text-muted">"While great software is important, having a caring team that clients can work with to bring their ideas to life is Lucolo's sole mission."</h3>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                         <div class="team-member">
                             <img src="img/team/dave.png" class="img-responsive img-circle" alt="">
                             <h4>Dave Baines</h4>
-                            <p class="text-muted">Lead Developer and Project Manager</p>
+                            <p class="text-muted">Lucolo's Lead Developer and Project Manager</p>
                             <ul class="list-inline social-buttons">
                                 <li><a href="https://www.twitter.com/imdavebaines" target='_blank'><i class="fa fa-twitter"></i></a>
                                 </li>
@@ -281,7 +281,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p class="large text-muted">Dave graduated from Suffolk University in Boston with a degree in Business Managament with a single goal in mind: to eventually build a company that could provide value to other companies in a creative, meaningful way while always using a human touch to do so.<br><br>After gaining industry experience by working for Apple for four years and a leading 3D printing company for almost three years, Dave decided to throw caution to the wind and found Lucolo to achieve his initial vision of building a company of creative, smart technologists that enjoy building great software just as much as they enjoy working with passionate clients that want to build great products.<br><br>When you work with Lucolo, you're not only working with talented software engineers, you're working with a team that wants to you succeed in your objectives just as much as you do.</p>
+                        <p class="large text-muted">Dave graduated from Suffolk University in Boston with a degree in Business Managament with a single goal in mind: to eventually build a company that could provide value to other companies in a creative, meaningful way while always using a human touch to do so.<br><br>After gaining industry experience by working for Apple for four years and a leading 3D printing company for almost three years, Dave decided to throw caution to the wind and found Lucolo to achieve his initial vision of building a company of creative, smart technologists that enjoy building great software just as much as they enjoy working with passionate clients.<br><br>When you work with Lucolo, you're not only working with talented software engineers, you're working with a team that wants to you succeed in your objectives just as much as you do.</p>
                     </div>
                 </div>
             </div>
