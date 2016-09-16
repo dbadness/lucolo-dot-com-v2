@@ -245,7 +245,7 @@
                             <img src="img/portfolio/mailsy.png" class="img-responsive" alt="">
                         </a>
                         <div class="portfolio-caption">
-                            <h4><a class='blackUnderline' href='https://www.mailsy.co'>Mailsy.co</a></h4>
+                            <h4><a class='blackUnderline' href='https://www.mailsy.co' target='_blank'>Mailsy.co</a></h4>
                             <p class="text-muted">Bringing an idea from paper to people.</p>
                         </div>
                     </div>
@@ -269,11 +269,13 @@
                             <h4>Dave Baines</h4>
                             <p class="text-muted">Lucolo's Lead Developer and Project Manager</p>
                             <ul class="list-inline social-buttons">
-                                <li><a href="https://www.twitter.com/imdavebaines" target='_blank'><i class="fa fa-twitter"></i></a>
+                                <li><a href="https://www.twitter.com/imdavebaines" target='_blank'><i class="fa fa-twitter" title='Twitter'></i></a>
                                 </li>
-                                <li><a href="http://www.medium.com/lucoloinc" target='_blank'><i class="fa fa-medium"></i></a>
+                                <li><a href="http://www.medium.com/lucoloinc" target='_blank'><i class="fa fa-medium" title='Medium'></i></a>
                                 </li>
-                                <li><a href="https://www.linkedin.com/in/davidabaines" target='_blank'><i class="fa fa-linkedin"></i></a>
+                                <li><a href="https://www.linkedin.com/in/davidabaines" target='_blank'><i class="fa fa-linkedin" title='LinkedIn'></i></a>
+                                </li>
+                                <li><a href="https://www.github.com/dbadness" target='_blank'><i class="fa fa-github" title='Github'></i></a>
                                 </li>
                             </ul>
                         </div>
